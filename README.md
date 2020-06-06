@@ -6,13 +6,13 @@ Deterministic hash functions의 일종으로 64-bit unsigned integer 타입을 �
 
 ## RAN Hash Function
 블룸필터의 사이즈보다 큰 최소의 소수를 골라 해시 다음과 같이 랜덤으로 해시값을 생성합니다.    
->algorithm hash is  
+>**algorithm** hash is  
 >> prime := getprime  
 >> a,b := {0, ... , prime-1} 안의 무작위 숫자  
 >> hash := 데이터  
 >> hash := (a*데이터 + b)%prime  
 >>  
->> return hash
+>> **return** hash
 
 ## Dynamic Hash Function
 ## 긍정 오류 예상치 평가
