@@ -2,6 +2,7 @@
 세가지 다른 방식의 Hash Function을 이용해 BloomFilter를 구현해 테스트, 비교한 프로젝트입니다.  
 ## FNV Hash Function
 deterministic hash functions의 일종으로 64-bit unsigned integer 타입을 이용합니다.
+![fnv](https://user-images.githubusercontent.com/49792776/83942457-6e41f600-a82e-11ea-8d90-969f59c1e442.PNG)
 
 ## RAN Hash Function
 ## Dynamic Hash Function
