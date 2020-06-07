@@ -29,6 +29,7 @@ Dynamic 해시함수의 성능이 다른 것들보다 뛰어났고 해시함수�
 
 ## 블룸필터의 효율성
 >테스트용 데이터: https://drive.google.com/file/d/1cxlj4yCb6bWJvygN4zJnydx-pv8MywB0/view?usp=sharing  
+  
 데이터베이스의 differential file을 관리하는 프로그램인 BloomDifferential와 NaiveDifferential을 비교한 테스트 입니다.  
 ![efficiency2](https://user-images.githubusercontent.com/49792776/83965726-c5a89a80-a8f0-11ea-817d-5ca8d9a9f1fc.PNG)  
 12번의 테스트를 진행한 결과입니다. 대부분의 경우에, 블룸필터를 이용했을때 15%정도 너 빠른것으로 드러났습니다.  
