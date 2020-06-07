@@ -28,8 +28,9 @@ Dynamic 해시함수의 성능이 다른 것들보다 뛰어났고 해시함수�
 다이나믹 해시함수는 필터 사이즈를 2배로 늘리는 과정에서 0값을 가진 비트자리가 줄어듬으로 인해 필터 사이즈를 정확하게 추산할 수 없는 모습을 보여줍니다.
 
 ## 블룸필터의 효율성
-![efficiency](https://user-images.githubusercontent.com/49792776/83943954-fc23de00-a83a-11ea-8a4c-82c2ed917b74.PNG)
-큰 메모리 공간을 이용한 naive approach보다 눈에 띄게 적은 메모리를 차지하는 것을 볼 수 있습니다.
+첨부된 데이터의 differential file을 관리하는 프로그램인 BloomDifferential와 NaiveDifferential을 비교한 테스트 입니다.  
+![efficiency](https://user-images.githubusercontent.com/49792776/83963210-28913600-a8df-11ea-8988-d1cdf03aeeec.PNG)  
+큰 메모리 공간을 이용한 naive approach보다 눈에 띄게 적은 메모리를 차지하는 것을 볼 수 있습니다.  
 
 ## 커뮤니케이션 비용 
 
